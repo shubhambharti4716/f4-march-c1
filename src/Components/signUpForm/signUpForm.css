@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.formContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    gap: 8px;
+}
+form> div{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-weight: 700;
+}
+input{
+    height: 1.75rem;
+    border-radius: 8px;
+    outline: none;
+    padding-inline: 8px;
+}
+form> div> p{
+    font-size: 14px;
+}
+button{
+    background: #0b65ee;
+    border: none;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+    align-self: center;
+}
